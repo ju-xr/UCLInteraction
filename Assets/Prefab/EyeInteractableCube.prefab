@@ -203,7 +203,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.061, y: 2, z: 1.662}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8961711322148690155}
   m_Father: {fileID: 0}
@@ -237,7 +237,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7a0bf304e03f2884ca4d3e64c2e504a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -327,6 +327,6 @@ MonoBehaviour:
   OnObjectSelected:
     m_PersistentCalls:
       m_Calls: []
-  OnHoverActiveMaterial: {fileID: 2100000, guid: f5c66df1222a31e4db339e4d4172831f, type: 2}
-  OnSelectActiveMaterial: {fileID: 2100000, guid: 5a981f14ed7853a458ee4de77d19cac6, type: 2}
-  OnIdleMaterial: {fileID: 2100000, guid: 0084b9fc776b71e4fb8a799455a9822f, type: 2}
+  OnHoverActiveMaterial: {fileID: 2100000, guid: 539fcacdc373e6e478f8feae6cc0e4e0, type: 2}
+  OnSelectActiveMaterial: {fileID: 2100000, guid: 7ad7f9e525e3eda46884099748f0f28f, type: 2}
+  OnIdleMaterial: {fileID: 2100000, guid: 7a0bf304e03f2884ca4d3e64c2e504a8, type: 2}
